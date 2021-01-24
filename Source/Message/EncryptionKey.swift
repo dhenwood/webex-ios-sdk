@@ -18,7 +18,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-class EncryptionKey {
+public class EncryptionKey {
     
     let convUrl: String
     var spaceUserIds: [String] = []

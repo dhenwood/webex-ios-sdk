@@ -739,7 +739,7 @@ public class MessageClient {
         }
     }
 
-    func requestSpaceKeyMaterial(convUrl: String, encryptionUrl: String?, completionHandler: @escaping (Result<(String, String)>) -> Void) {
+    public func requestSpaceKeyMaterial(convUrl: String, encryptionUrl: String?, completionHandler: @escaping (Result<(String, String)>) -> Void) {
         self.prepareEncryptionKey { error in
             if let error = error {
                 completionHandler(Result.failure(error))
